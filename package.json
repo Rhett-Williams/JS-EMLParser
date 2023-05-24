@@ -1,0 +1,20 @@
+{
+  "name": "emlparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node parser.js",
+    "build": "pkg parser.js --output emlparser"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eml-parser": "^1.2.1",
+    "html-to-text": "^9.0.5",
+    "jsdom": "^22.0.0",
+    "pkg": "^5.8.1",
+    "readline-sync": "^1.4.10"
+  }
+}
